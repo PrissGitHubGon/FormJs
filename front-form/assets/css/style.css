@@ -1,0 +1,84 @@
+body {
+  width: 1676px;
+  height: 916px;
+  background-color: #7359dc;
+}
+
+.container {
+  height: 696px;
+  width: 500px;
+  background-color: #e5e5e5;
+  border-radius: 10px;
+  /* border: 2px solid black; */
+  justify-content: center;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 10%;
+  box-shadow: 0px 0px 30px 0px #00000040;
+}
+
+/* Formulaire de contact */
+h2 {
+  text-align: center;
+  /* border: 2px solid black; */
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  margin-top: 10%;
+  margin-bottom: 6%;
+}
+#contact-form {
+  width: 217px;
+  height: 26px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  margin-left: 6%;
+}
+
+#contact-form > input {
+  width: 420px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-left: 5%;
+  /* margin-right: 88.33%; */
+  margin-top: 10%;
+  /* margin-bottom: 25%; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+#contact-form > textarea {
+  width: 420px;
+  height: 200px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  margin-left: 3.33%;
+  margin-right: 88.33%;
+  margin-top: 27.5%;
+  margin-bottom: 20%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+#contact-form > input:last-child {
+  background-color: #7359dc;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
